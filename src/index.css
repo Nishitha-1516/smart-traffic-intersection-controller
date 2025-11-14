@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes moveCar {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+.animate-moveCar {
+  animation: moveCar 6s linear infinite;
+}
