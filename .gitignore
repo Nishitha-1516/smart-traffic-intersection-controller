@@ -19,4 +19,4 @@ pnpm-debug.log*
 .env
 .env.local
 
-src/hooks/useSimulator.js
+
