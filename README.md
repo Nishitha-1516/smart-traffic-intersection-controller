@@ -120,7 +120,7 @@ smart-traffic-intersection-controller/
 └── tailwind.config.js
 ```
 
-### 🔍 Core Logic Explained
+## 🔍 Core Logic Explained
 
 The main logic lives inside **`useSimulator.js`**.
 
